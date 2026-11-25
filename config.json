@@ -1,0 +1,13 @@
+{
+  "inactivity_days": 1,
+  "inactivity_hours": 0,
+  "inactivity_minutes": 0,
+  "exit_delay_sec": 30,
+  "screen_off_delay_sec": 20,
+  "auto_sleep_unused": true,
+  "smart_open_threshold": 5,
+  "smart_deep_days": 0,
+  "smart_deep_hours": 0,
+  "smart_deep_minutes": 15,
+  "apps": {}
+}

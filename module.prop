@@ -1,0 +1,6 @@
+id=hypersleep
+name=HyperSleep – Smart Deep Sleep (WebUI)
+version=v2.8
+versionCode=208
+author=@Lifeispoop
+description=Secili uygulamalari otomatik uykuya/derin dondurmaya alir. Oto mod: kullanilmayan -> Derin (force-stop + kisit), tekrar kullanilirsa -> Uyku, sure dolunca -> tekrar Derin. TR/EN arayuz, sekmeli WebUI. Orijinal yapim: GutsV
