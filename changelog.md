@@ -1,7 +1,5 @@
-v2.9
+v3.0
 
-• Fix: fixed Sleep/Freeze apps are no longer re-applied every 30 s once idle (CPU/battery).
-• Fix: after the screen turns on, the foreground app is treated as freshly opened (restrictions relax, Auto open counter works).
-• Fix: heavy dumpsys window fallback only runs from the main loop while the screen is on.
-• "Sleep now" runs as one script (no huge command, errors are reported).
-• UI: "Deep" renamed to "Freeze", counter shows opens/threshold, "Show more" for long lists, unsaved-changes pulse on the Save button.
+• Removed the manager "Action" button (wake script renamed to wake.sh; the WebUI "Wake all" button still works).
+• Fix: in Auto mode the Freeze button now lights up when the app is frozen (it only lit up for Sleep before).
+• Auto tag is colored by level: amber = Sleep, red = Freeze.
