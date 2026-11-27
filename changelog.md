@@ -1,5 +1,8 @@
-v3.0
+v3.1
 
-• Removed the manager "Action" button (wake script renamed to wake.sh; the WebUI "Wake all" button still works).
-• Fix: in Auto mode the Freeze button now lights up when the app is frozen (it only lit up for Sleep before).
-• Auto tag is colored by level: amber = Sleep, red = Freeze.
+• New: protected packages. WebView, Trichrome, Play Services, SystemUI, launcher, phone, settings, keyboards, root managers and Termux are never touched, even if selected.
+• New: apps that are playing audio are skipped (music no longer stops when the screen turns off).
+• New: "Reset all restrictions" button in Settings (Troubleshooting).
+• New: uninstall.sh cleans up every restriction when the module is removed.
+• Restrictions are now restored to the system default instead of forced "allow", so HyperOS battery settings are respected.
+• Contact card text updated.
